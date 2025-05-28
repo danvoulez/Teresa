@@ -1,0 +1,7 @@
+{
+  "name": "flipapp",
+  "version": "1.0.0",
+  "scripts": {"dev":"vite","build":"vite build","test":"vitest"},
+  "dependencies": {"react":"^18.2.0","react-dom":"^18.2.0","react-router-dom":"^6.4.0","zustand":"^4.4.0","socket.io-client":"^4.6.1"},
+  "devDependencies": {"vite":"^5.0.0","@vitejs/plugin-react":"^4.0.0","vitest":"^0.33.0","@testing-library/react":"^14.0.0"}
+}

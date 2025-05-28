@@ -1,0 +1,1 @@
+import create from 'zustand';import { LogEntry } from '@/core/types/LogEntry';interface DraftStore{draft:Partial<LogEntry>;setField:(key:keyof LogEntry,value:string)=>void;clear:()=>void;}export const useNewDraftStore=create<DraftStore>(set=>({draft:{},setField:(k,v)=>set(s=>({draft:{...s.draft,[k]:v}})),clear:()=>set({draft:{}})}));
